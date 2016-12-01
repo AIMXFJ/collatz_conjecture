@@ -23,7 +23,7 @@ def main():
     while True:
         #Take input until it is correct
         while True:
-            number = raw_input('Enter positive number (-1 to exit): ')
+            number = int(raw_input('Enter positive number (-1 to exit): '))
 
             #If is valid continue execution
             if int(number) >= 0:
