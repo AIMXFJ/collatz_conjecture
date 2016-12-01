@@ -1,0 +1,277 @@
+body {
+	background: linear-gradient(180deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+h1 {
+	text-align: bottom;
+	color: lightgrey;
+	font-size: 2em;
+	width: 100%;
+	margin: 0px;
+}
+
+#img {
+	width: 30%;
+    height: auto;
+    padding: 2px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#image {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#text {
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+	color: black;
+	font-size: 1.5em;
+	border: 3px solid grey;
+	border-radius: 30px;
+	padding: 3px;
+}
+
+#header {
+	background-image: url("mosaic-bg.png");
+	background-size: 100%;
+	background-position: right top;
+	margin-bottom: 50px;
+	height: 7em;
+	padding-top: 4.5em;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+}
+
+#separator {
+	height: 1px;
+	width:100%;
+	display:block;
+	margin: 29px 0;
+	overflow: hidden;
+	background-color: black;
+}
+
+.jumbotron {
+	background-color: #272822;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.8);
+}
+
+#title-column {
+	background-color: #20211D;
+	margin-bottom: 50px;
+	text-align: center;
+	border-radius: 30px;
+    box-shadow: 0px 5px 5px rgba(255,255,255,0.1);
+}
+
+h2 {
+	font-size: 4em;
+	color: white;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.download {
+	text-align: center;
+	height: 100px;
+}
+
+.download-btn {
+	background-color: #D93838;
+	border-color: #942626;
+	box-shadow: 0 5px 0 0 #942626;
+	width: 100%;
+	height: 80%;
+}
+
+.download-btn > a {
+	color: rgba(0,0,0,0.6);
+	font-size: 1.3em;
+	font-weight: 900;
+	text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+}
+
+.download-btn:active {
+	background: #942626;
+	border-color: #942626;
+	box-shadow: none;
+	margin-bottom: -5px;
+	margin-top: 5px;
+}
+
+.download-btn:focus {
+	background: #942626;
+	border-color: #942626;
+}
+
+.download-btn:hover {
+	background: #D93838;
+	border-color: #D93838;
+}
+
+.download-btn:active:hover {
+	background: #942626;
+	border-color: #942626;
+}
+
+#projects {
+	text-align: center;
+	height: 100px;
+}
+
+#projects-btn {
+	background-color: #46BEE3;
+	border-color: #007299;
+	box-shadow: 0 5px 0 0 #007299;
+	width: 50%;
+	height: 80%;
+}
+
+#projects-btn > a {
+	color: rgba(0,0,0,0.6);
+	font-size: 1.3em;
+	font-weight: 900;
+	text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+}
+
+#projects-btn:active {
+	background: #33a6cc;
+	box-shadow: none;
+	margin-bottom: -5px;
+	margin-top: 5px;
+}
+
+#projects-btn:hover {
+	background: #46BEE3;
+}
+
+#contact {
+	text-align: center;
+	height: 100px;
+}
+
+#contact-btn {
+	background-color: #74E64E;
+	border-color: #58AD3B;
+	box-shadow: 0 5px 0 0 #58AD3B;
+	width: 50%;
+	height: 80%;
+}
+
+#contact-btn > a {
+	color: rgba(0,0,0,0.6);
+	font-size: 1.3em;
+	font-weight: 900;
+	text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+}
+
+#contact-btn:active {
+	background: #33a6cc;
+	box-shadow: none;
+	margin-bottom: -5px;
+	margin-top: 5px;
+}
+
+#footer {
+	background-color: #20211D;
+	height: 7em;
+	color: white;
+	padding-top: 10px;
+}
+
+#footer-left {
+	text-align: left;
+}
+
+#cc-img {
+	size: 25%;
+}
+
+.footer-text {
+	font-family: "Open Sans";
+    color: #888;
+    font-size: 1em;
+}
+
+@media (min-width: 1200px){
+	#img{
+		width: 40%;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	#img{
+		width: 50%;
+	}
+
+	h2 {
+		padding-top: 2%;
+		padding-bottom: 2%;
+	}
+
+	.download-btn {
+		height: 80%;
+		width: 51.5%;
+	}
+
+	#projects-btn {
+		margin-top: 0px;
+		margin-left: 3.5%;
+	}
+
+	#contact-btn {
+		margin-top: 0px;
+		margin-right: 3.5%;
+	}
+}
+
+@media (max-width: 991px){
+	#img{
+		width: 70%;
+	}
+
+	#text {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	h2 {
+		padding-top: 1.5%;
+		padding-bottom: 1.5%;
+	}
+
+	.download-btn {
+		height: 80%;
+		width: 51.5%;
+	}
+
+	#projects-btn {
+		margin-top: 0px;
+	}
+
+	#contact-btn {
+		margin-top: 0px;
+	}
+}
+
+@media (max-width: 288px){
+	#header {
+		padding-top: 0px;
+	}
+}
