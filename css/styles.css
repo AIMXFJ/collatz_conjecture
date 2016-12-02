@@ -203,6 +203,51 @@ h2 {
 	size: 25%;
 }
 
+#button {
+	background-color: #74E64E;
+	border-color: #58AD3B;
+	box-shadow: 0 5px 0 0 #007299;
+	width: 50%;
+	height: 80%;
+}
+
+#button:active {
+	background: #308613;
+	box-shadow: none;
+	margin-bottom: -5px;
+	margin-top: 5px;
+}
+
+#button:hover {
+	background: #40b319;
+}
+
+#button > #calculate-span {
+	color: rgba(0,0,0,0.6);
+	font-size: 1.3em;
+	font-weight: 900;
+	text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+}
+
+.button-container {
+	height: 5em;
+	width: 20em;
+	text-align: center;
+}
+
+.input-container {
+	text-align: center;
+}
+
+.span-container {
+	text-align: center;
+}
+
+#results {
+	font-size: 2em;
+	font-style: bold;
+}
+
 .footer-text {
 	font-family: "Open Sans";
     color: #888;

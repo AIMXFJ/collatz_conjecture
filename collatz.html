@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Collatz Conjecture Implementations</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+  	<div class="container-fluid">
+
+  		<div class="row">
+  			<div class="col-lg-12" id="header"><h1>Collatz Conjecture Javascript Example</h1></div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 button-container"><button id="button"><span id="calculate-span">Calculate</span></button></div>
+        <div class="col-lg-6 input-container">
+            <input type="number" name="input" pattern="[0-9]*" placeholder="Write a positive number" id="input">
+        </div>
+      </div>
+
+      <div class="row"><div class="col-lg-12 span-container"><span id="results"></span></div></div>
+  	</div>
+    <!--End of fluid container-->
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/collatz.js"></script>
+  </body>
+  <!--End of body-->
+</html>
